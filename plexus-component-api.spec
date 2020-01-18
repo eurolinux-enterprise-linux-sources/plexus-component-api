@@ -2,7 +2,7 @@
 
 Name:           plexus-component-api
 Version:        1.0
-Release:        0.15.alpha15%{?dist}
+Release:        0.16.alpha15%{?dist}
 Summary:        Plexus Component API
 
 License:        ASL 2.0
@@ -45,6 +45,9 @@ API documentation for %{name}.
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-0.16.alpha15
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.0-0.15.alpha15
 - Remove workaround for rpm bug #646523
 - Add BR on plexus-containers
